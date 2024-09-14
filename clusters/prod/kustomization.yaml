@@ -4,7 +4,7 @@ namespace: prod
 resources:
 - ../../base
 - bgd-prod-ns.yaml
-patches:
+patchesJson6902:
   - target:
       version: v1
       group: apps
